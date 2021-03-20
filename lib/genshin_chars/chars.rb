@@ -1,6 +1,5 @@
 class Character
-
-    attr_accessor :name, :url, :nation, :affiliation, :birthday, :constellation, :gender, :title, :title2, :title3
+attr_accessor :name, :url, :nation, :affiliation, :birthday, :constellation, :gender, :title, :title2, :title3
 
     @@all = []
 

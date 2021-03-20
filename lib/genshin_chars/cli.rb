@@ -16,7 +16,7 @@ class CLI
 
         input = gets.chomp
         if !input.to_i.between?(1, Character.all.count)
-            puts "Character not found. Please select a different character!"
+            puts "Please input a correct number."
             puts ""
 
             start
@@ -69,5 +69,6 @@ class CLI
         end
     end
 
-
 end
+
+
