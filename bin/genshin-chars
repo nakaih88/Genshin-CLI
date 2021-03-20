@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'pry'
+require 'nokogiri'
+require 'open-uri'
+
+require_relative '../lib/genshin_chars/cli'
+require_relative '../lib/genshin_chars/version'
+require_relative '../lib/genshin_chars/chars'
+require_relative '../lib/genshin_chars/scraper'
+
+
+CLI.new.call
