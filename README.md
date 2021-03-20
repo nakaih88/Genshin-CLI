@@ -18,6 +18,8 @@ Or install it yourself as:
 
 You can also git clone it by the following:
 
+    $ git clone git@github.com:nakaih88/genshin-cli.git
+
 ## Usage
 
 Type the below and follow the screen prompts
