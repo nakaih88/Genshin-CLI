@@ -61,28 +61,12 @@ class CLI
         elsif input == "n"
           puts ""
           puts "Goodbye!"
-          exit
         else
           puts ""
           puts "Please input Y or N"
           start
         end
-        # ending
     end
-
-    # def ending
-    #     puts "Would you like to view another characters information? Please input Y or N"
-    #     input = gets.strip.downcase
-    #     if input == "y"
-    #       start
-    #     elsif input == "n"
-    #       puts ""
-    #       puts "Goodbye!"
-    #     else
-    #       puts ""
-    #       puts "Please input Y or N"
-    #     end
-    # end
 
 end
 
