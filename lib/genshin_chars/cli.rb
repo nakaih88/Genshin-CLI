@@ -23,11 +23,11 @@ class CLI
 
         else
             character = Character.all[input.to_i-1]
-            display_character_details(character)
+            display_char_details(char)
         end
     end
 
-    def display_character_details(char)
+    def display_char_details(char)
         Scraper.scrape_ind_characters(char)
         puts " __| |____________________________________________| |__"
         puts "(__   ____________________________________________   __)"
@@ -48,7 +48,7 @@ class CLI
         puts "(__   ____________________________________________   __)"
         puts "   | |                                            | |"
         puts "                      More Info"
-        puts "#{char.url}"
+        puts "https://genshin-impact.fandom.com#{char.url}"
         puts " __| |____________________________________________| |__"
         puts "(__   ____________________________________________   __)"
         puts "   | |                                            | |"
