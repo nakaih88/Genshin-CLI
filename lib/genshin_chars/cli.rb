@@ -23,7 +23,7 @@ class CLI
 
         else
             character = Character.all[input.to_i-1]
-            display_char_details(char)
+            display_char_details(character)
         end
     end
 
@@ -53,7 +53,11 @@ class CLI
         puts "(__   ____________________________________________   __)"
         puts "   | |                                            | |"
         puts ""
-        
+
+        ending
+    end
+
+    def ending
         puts "Would you like to view another characters information? Please input Y or N"
         input = gets.strip.downcase
         if input == "y"
@@ -65,7 +69,7 @@ class CLI
         else
           puts ""
           puts "Please input Y or N"
-          start
+        ending
         end
     end
 
