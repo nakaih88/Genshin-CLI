@@ -65,7 +65,6 @@ class CLI
         elsif input == "n"
           puts ""
           puts "Goodbye!"
-          exit
         else
           puts ""
           puts "Please input Y or N"
